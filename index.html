@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<section id="app">
+     
+     
+     <section class="panel panel-left panel-cover">
+     	
+     	<div class="bg-menu">
+     		Menú de Opciones
+     	</div>
+     	
+     	<div class="list list-menu">
+			<ul>
+				<li>
+					<a href="/cartelera/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">theaters</i>
+						</div>
+						<div class="item-inner">
+							Inicio
+						</div>
+
+					</a>
+				</li>
+					<a href="/comida/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">food_bank</i>
+						</div>
+						<div class="item-inner">
+							comida
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">local_offer</i>
+						</div>
+						<div class="item-inner">
+							Promociones
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/peliculas/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">movie</i>
+						</div>
+						<div class="item-inner">
+							peliculas
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">perm_identity</i>
+						</div>
+						<div class="item-inner">
+							Perfil
+						</div>
+					</a>
+				</li>
+			</ul>
+
+		</div>
+     
+     	
+     </section>
+     
+     <section class="panel panel-right panel-cover">
+     	<h2 class="block-title">Menú Lateral Derecho</h2>
+     </section>
+     
+     
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+             	<div class="right">
+             		<a href="#" class="link panel-open" data-panel=".panel-left">
+             			<span class="material-icons">menu</span>
+             		</a>
+             	</div>
+              	<div class="title">Cinefest</div>
+            </div>
+          </nav>
+
+
+          <!-- Scrollable page content -->
+          <article class="page-content">
+				
+				<h3 class="block-title">Hola, Ricardo</h3>
+	  			
+		  		<div class="block">
+		  			<h2 class="block-title-medium">Bienvenido a Cinefest</h2>
+		  		</div>
+			  	
+        		<div class="block">
+        			
+        			<article class="card top">
+        				<div class="card-content card-content-padding">
+        					<div class="row">
+        						<article class="col-60">
+        							<h4>JOJO RABBIT</h4>
+        							<p>Jojo is a lonely German boy who discovers that his single mother is hiding a Jewish girl in their attic. Aided only by his imaginary friend -- Adolf Hitler -- Jojo must confront his blind nationalism as World War II continues to rage on.<p>
+        							<span class="precio">L. 150</span>
+        						</article>
+								
+								
+        						<article class="col-40">
+        							<img src="img/jojojo.jpg" class="img-fluid">
+        						</article>
+        					</div>        					        					
+        				</div>
+        			</article>
+        			
+        			
+        			<div class="row categoria-enlace">
+        				<article class="col">
+        					<h3 class="block-title no-margin">Popular</h3>
+        				</article>
+        				<article class="col text-align-right">
+        					<a href="/productos/" class="link">Ver todos <span class="material-icons">arrow_forward</span></a>
+        				</article>
+        			</div>
+        			
+        			
+        			<section id="home-productos">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/jojojo.jpg" class="img-fluid">
+											<h2>Jojo Rabbit</h2>
+											<h3>PG 13</h3>
+											<h3>2 Horas</h3>
+											<h3>2020</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 150.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/Black widow Poster.jpeg" class="img-fluid">
+											<h2>Black Widow</h2>
+											<h3>PG 13</h3>
+											<h3>2 Horas</h3>
+											<h3>2020</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 150.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/bad boys.jpg" class="img-fluid">
+											<h2>Bad Boys</h2>
+											<h3>PG-13</h3>
+											<h3>3 Horas</h3>
+											<h3>2020</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 150.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									
+        				
+        			</section><!-- home-productos -->
+								
+								<section id="home-productos">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/Black widow Poster.jpeg" class="img-fluid">
+											<h2>Black Widow</h2>
+											<h3>PG 13</h3>
+											<h3>2 Horas</h3>
+											<h3>2020</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 150.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/jojojo.jpg" class="img-fluid">
+											<h2>Jojo Rabbit</h2>
+											<h3>PG 13</h3>
+											<h3>2 Horas</h3>
+											<h3>2020</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 150.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/movie poster.jpg" class="img-fluid">
+											<h2>Spongebob</h2>
+											<h3>Todo Publico</h3>
+											<h3>2 Horas</h3>
+											<h3>2020</h3>
+										</div>
+										<div class="card-footer">
+											<span>L 150.00</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									
+        				
+        			</section><!-- home-productos -->
+        			
+        			
+		  
+      	<div class="toolbar tabbar tabbar-labels toolbar-bottom">
+		  <div class="toolbar-inner">
+			<a href="/home/" class="tab-link">
+			  <i class="material-icons">theaters</i>
+			  <span class="tabbar-label">Cartelera</span>
+			</a>
+			<a href="#tab2" class="tab-link">
+			  <i class="material-icons">person</i>
+			  <span class="tabbar-label">Perfil</span>
+			</a>
+		  </div>
+		</div>
+
+      </div><!-- view -->
+		
+    </section>
+	
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>s
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>
